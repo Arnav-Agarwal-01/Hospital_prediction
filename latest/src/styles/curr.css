@@ -1,0 +1,46 @@
+.curflex{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding-top:20px;
+}
+.curform{
+    height:90vh;
+    width:45vw;
+    border:1px solid black;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+}
+.curhead{
+    flex-basis:13vh;
+    border-bottom:1px solid black;
+    display:flex;
+    align-items:center;
+    font-size:30px;
+    justify-content:space-around;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+.curdata{
+    display:flex;
+    flex-direction:column;  
+    justify-content:space-around;
+    height:100%;
+
+}
+.infl{
+    display:flex;
+    font-size:20px;
+    border-bottom:1px solid black;
+
+}
+.l{
+    flex-basis:50%;
+    margin-left:2vw;
+
+}
+.r{
+    flex-basis:50%;
+    margin-left:2vw;
+}
